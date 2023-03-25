@@ -38,7 +38,6 @@ public class HelloSpringController {
         } else{
             studentGrades.set(gradeIdxFound, grade);
         }
-        studentGrades.add(grade);
         return "redirect:/show-grades";
     }
 
